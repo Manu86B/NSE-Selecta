@@ -7,7 +7,7 @@ from collections import defaultdict
 import curses
 
 class MyTheme(npyscreen.npysThemeManagers.ThemeManager):
-	#To use MyTheme, 
+	#To use MyTheme, edit NSESelecta.onStart()
 	default_colors = {
 		'DEFAULT'     : 'BLACK_WHITE',
 		'FORMDEFAULT' : 'BLACK_WHITE',
